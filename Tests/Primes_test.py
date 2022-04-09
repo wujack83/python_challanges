@@ -1,6 +1,6 @@
 import pytest, unittest
 
-from _mySolutions.math_challanges.Primes import *
+from _mySolutions.math_challanges.primes import *
 
 
 @pytest.mark.parametrize("n, expected", [(5, True), (4, False), (11, True)])
