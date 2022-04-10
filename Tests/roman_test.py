@@ -18,7 +18,4 @@ def test_from_roman_number(roman_number, expected):
     assert from_roman_number(roman_number) == expected
 
 
-@pytest.mark.parametrize("roman_number, expected",
-                         arabic_to_roman_number_map())
-def test_to_roman_number(roman_number, expected):
-    assert to_roman_number(roman_number) == expected
+
