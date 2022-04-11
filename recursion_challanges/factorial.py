@@ -5,7 +5,7 @@ def factorial(n):
     if n == 1:
         return 1
 
-    #rekursiver abstieg
+# Rekursiver abstieg
 
     return n * factorial(n - 1)
 
