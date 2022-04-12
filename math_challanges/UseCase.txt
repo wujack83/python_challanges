@@ -1,0 +1,6 @@
+- Can call function LeapYear
+- Returns False for not divisible by 4
+- Returns True for divisible by 4 but not 100 or 400
+- Returns False for divisible by 4 and divisible by 100
+and divisible by 400
+

@@ -32,4 +32,4 @@ def test_join_edge_case_empty() -> None:
 
 
 def test_join_edge_case_none() -> None:
-    assert join([1,2,4], "") == "124"
+    assert join([1, 2, 4], "") == "124"
